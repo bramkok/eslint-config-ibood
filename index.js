@@ -9,8 +9,8 @@ module.exports = {
     'indent': ['error', 2],
     'semi': ['error', 'never'],
     'curly': ['error', 'multi-line'],
-    "node/no-unpublished-require": ["error", {
-      "allowModules": ['react', 'react-dom']
+    'node/no-unpublished-require': ['error', {
+      'allowModules': ['react', 'react-dom']
     }]
   }
 }

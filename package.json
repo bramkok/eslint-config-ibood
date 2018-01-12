@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "https://github.com/bramkok/eslint-config-ibood",
   "author": "Bram Kok <bramkok.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "publish": "np"
+  },
+  "devDependencies": {
+    "np": "^2.18.3"
+  }
 }

@@ -13,5 +13,6 @@ module.exports = {
     'node/no-unpublished-require': ['error', {
       'allowModules': ['react', 'react-dom']
     }],
+    'react/jsx-indent': [2, 2]
   }
 }

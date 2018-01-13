@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ yarn add --dev xo eslint-config-paprika
+$ yarn add --dev xo eslint-config-ibood
 ```
 
 ## Usage

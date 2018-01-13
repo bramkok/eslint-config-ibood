@@ -7,7 +7,7 @@
   "author": "Bram Kok <bramkok.com>",
   "license": "MIT",
   "scripts": {
-    "publish": "np"
+    "release": "np"
   },
   "devDependencies": {
     "np": "^2.18.3"

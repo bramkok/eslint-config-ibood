@@ -11,7 +11,7 @@ module.exports = {
     'semi': ['error', 'never'],
     'curly': ['error', 'multi-line'],
     'node/no-unpublished-require': ['error', {
-      'allowModules': ['react', 'react-dom']
+      'allowModules': ['react', 'react-dom', '@symfony/webpack-encore']
     }],
     'react/jsx-indent': [2, 2]
   }

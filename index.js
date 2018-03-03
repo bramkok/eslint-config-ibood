@@ -13,6 +13,11 @@ module.exports = {
     'node/no-unpublished-require': 0,
     'node/no-unpublished-import': 0,
     'react/jsx-indent': [2, 2],
+    'capitalized-comments': ['error', 'never', {
+      ignorePattern: '^((?!(abc|def)).)*$',
+      ignoreInlineComments: true,
+      ignoreConsecutiveComments: true
+    }],
   },
   settings: {
     "import/resolver": {

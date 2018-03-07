@@ -28,5 +28,16 @@ module.exports = {
         ]
       }
     }
+  },
+  globals: {
+    afterAll: false,
+    afterEach: false,
+    beforeAll: false,
+    beforeEach: false,
+    describe: false,
+    test: false,
+    it: false,
+    expect: false,
+    jest: false
   }
 }

@@ -3,11 +3,13 @@
 
 module.exports = {
   env: {
+    'cypress/globals': true,
     node: true,
     browser: true,
     es6: true,
     jest: true
   },
+  plugins: ['cypress'],
   extends: ['xo-react'],
   rules: {
     'object-curly-spacing': ['error', 'always'],
@@ -35,7 +37,6 @@ module.exports = {
   },
   globals: {
     page: true,
-    browser: true,
-    jestPuppeteer: true
+    browser: true
   }
 }

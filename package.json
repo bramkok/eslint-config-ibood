@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ibood",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "ESLint shareable config to be used with XO",
   "main": "index.js",
   "repository": "https://github.com/bramkok/eslint-config-ibood",

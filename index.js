@@ -37,6 +37,7 @@ module.exports = {
   },
   globals: {
     page: true,
-    browser: true
+    browser: true,
+    cookiesAccepted: true
   }
 }

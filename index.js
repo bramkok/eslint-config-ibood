@@ -33,6 +33,9 @@ module.exports = {
           '.jsx'
         ]
       }
+    },
+    react: {
+      version: '15.0'
     }
   },
   globals: {
